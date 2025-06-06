@@ -1,0 +1,27 @@
+.review {
+    padding: 20px;
+}
+
+.container {
+    max-width: none;
+}
+
+.card {
+    margin: 0 auto;
+}
+
+.classInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.LRV {
+    margin: 10px;
+}
+
+.LRV:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}

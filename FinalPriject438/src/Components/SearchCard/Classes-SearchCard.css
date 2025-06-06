@@ -1,6 +1,23 @@
-.card {
+.classCard {
     border: 1px solid #ccc;
     padding: 12px;
+    max-width: 70%;
     border-radius: 8px;
     margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.container {
+    padding: 2px 20px;
+}
+
+.classCard-title {
+    text-align: left;
+}
+
+.classCard:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }

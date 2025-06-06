@@ -1,0 +1,19 @@
+.rating-input input[type="radio"] {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #7b2ff2;
+    border-radius: 50%;
+    background-color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.rating-input input[type="radio"]:checked {
+    background-color: #7b2ff2;
+}
+
+.rating-input label span {
+    display: block;
+    margin-top: 4px;
+    font-size: 14px;
+}
